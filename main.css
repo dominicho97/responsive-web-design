@@ -8,7 +8,19 @@
 @media screen and (min-width: 300px){
   body {
     background-color: green;
-
+   
+  }
+    .small{
+    box-sizing: border-box;
+    width: 66%;
+  }
+  .medium{
+    box-sizing: border-box;
+    width: 33%;
+  }
+  .large{
+    box-sizing: border-box;
+    width: 100%;
   }
   
  
@@ -18,6 +30,8 @@
   body {
     background-color: red;
     font-size: 12px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
   }
   
 }
