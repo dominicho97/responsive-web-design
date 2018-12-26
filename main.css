@@ -9,15 +9,23 @@
   body {
     background-color: green;
   }
+  
+ 
 }
 
 @media screen and (max-width: 300px) {
   body {
     background-color: red;
+    font-size: 12px;
   }
+  
 }
 @media screen and (min-width: 768px) {
   body {
     background-color: lightblue;
-  }
+    font-size: 20px;
+      }
+      .medium{
+        display: none;
+      }
 }
