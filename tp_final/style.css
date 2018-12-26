@@ -295,18 +295,7 @@ footer h1
 
 
 
-/*mobile phone size*/
-@media screen and (max-width: 500px) {
-    body {
-     font-size: 12px;
-     display: flex;
 
-  }
-  #banniere_image{
-      width: 100%;
-  }
-  
-}
 
 
 
@@ -322,3 +311,25 @@ footer h1
   }
   
 }
+
+/*mobile phone size*/
+@media screen and (max-width: 500px) {
+    body {
+     font-size: 12px;
+     display: flex;
+
+  }
+  #banniere_image{
+      width: 100%;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
