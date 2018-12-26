@@ -8,6 +8,7 @@
 @media screen and (min-width: 300px){
   body {
     background-color: green;
+
   }
   
  
@@ -24,6 +25,8 @@
   body {
     background-color: lightblue;
     font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
       }
       .medium{
         display: none;
