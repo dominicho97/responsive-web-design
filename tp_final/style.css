@@ -295,7 +295,7 @@ footer h1
 
 
 
-
+/*mobile phone size*/
 @media screen and (max-width: 500px) {
     body {
      font-size: 12px;
@@ -305,21 +305,20 @@ footer h1
   #banniere_image{
       width: 100%;
   }
-  #titre_principal{
-      width: 50%;
-      
+  
+}
+
+
+
+/*tablet size*/
+@media screen and (max-width: 800px) {
+    body {
+     font-size: 16px;
+     display: flex;
+
   }
-  .nav{
-    width: 50%;
+  #banniere_image{
+      width: 100%;
   }
-  .ico_categorie{
-      width: 50%;
-  }
-  .img.ico_categorie{
-      display: none;
-  }
-  .aside{
-      width: 50%;
-      height: 50%;
-  }
+  
 }
