@@ -8,14 +8,19 @@
   padding: 20px;
 }
 
-@media screen and (min-width: 600px) {
-  div.example {
-    font-size: 80px;
+@media screen and (min-width: 300px){
+  body {
+    background-color: green;
   }
 }
 
 @media screen and (max-width: 300px) {
-  div.example {
+  body {
     background-color: red;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: blue;
   }
 }
